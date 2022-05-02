@@ -8,6 +8,17 @@ An angular project that consumes the github API to search users as well as their
 - [@njuguna-johnbrian](https://www.github.com/Njuguna-JohnBrian)
 
 
+## Deployment
+
+To view this project in deployment
+
+- [GitHub Pages](https://njuguna-johnbrian.github.io/GithubSearch)
+
+
+
+**Have fun viewing!** 🚀
+
+
 ## Installation
 
 After cloning GithubSearch, Install GithubSearch with npm 
