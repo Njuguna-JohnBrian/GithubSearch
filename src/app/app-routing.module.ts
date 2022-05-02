@@ -5,8 +5,8 @@ import { ReposComponent } from "./components/repos/repos.component";
 
 const routes: Routes = [
   {path: '**', redirectTo:'/profile', pathMatch:"full"},
-  { path: "profile", component: ProfileComponent },
-  { path: "repos", component: ReposComponent },
+  { path: "/profile", component: ProfileComponent },
+  { path: "/repos", component: ReposComponent },
 ];
 
 @NgModule({
