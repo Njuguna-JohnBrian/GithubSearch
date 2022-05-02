@@ -4,7 +4,7 @@ import { ProfileComponent } from "./components/profile/profile.component";
 import { ReposComponent } from "./components/repos/repos.component";
 
 const routes: Routes = [
-  {path: '', redirectTo:'/profile', pathMatch:"full"},
+  {path: '**', redirectTo:'/profile', pathMatch:"full"},
   { path: "profile", component: ProfileComponent },
   { path: "repos", component: ReposComponent },
 ];

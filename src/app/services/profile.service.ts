@@ -14,21 +14,15 @@ export class ProfileService {
   }
 
   getUser() {
-    return this.http.get(environment.API_USERS + this.username, {
-      headers: new HttpHeaders({ Authorization: `token ${this.apikey}` }),
-    });
+    return this.http.get(environment.API_USERS + this.username);
   }
 
   getUserRepos() {
-    return this.http.get(environment.API_USERS + this.username + "/repos", {
-      headers: new HttpHeaders({ Authorization: `token ${this.apikey}` }),
-    });
+    return this.http.get(environment.API_USERS + this.username + "/repos");
   }
 
   searchrepos() {
-    return this.http.get(environment.API_SEARCH_REPOS + this.repoName, {
-      headers: new HttpHeaders({ Authorization: `token ${this.apikey}` }),
-    });
+    return this.http.get(environment.API_SEARCH_REPOS + this.repoName);
   }
 
   UpdateUser(username: string) {
