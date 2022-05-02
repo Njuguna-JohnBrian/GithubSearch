@@ -8,7 +8,7 @@ import { environment } from "src/environments/environment";
 export class ProfileService {
   username: string;
   repoName: string;
-  apikey: string = environment.ACCESS_TOKEN;
+  apikey: string = "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";
   constructor(private http: HttpClient) {
     console.log("service is now ready");
   }
