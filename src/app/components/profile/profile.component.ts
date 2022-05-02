@@ -9,7 +9,7 @@ import { ProfileService } from 'src/app/services/profile.service';
 export class ProfileComponent implements OnInit {
   user: any;
   userRepos:any;
-  username: string = 'Lorna-Mwaura'
+  username: string = 'Njuguna-JohnBrian'
   imageWidth: number = 150;
   imageHeight: number = 200;
 

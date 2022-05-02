@@ -8,7 +8,7 @@ import { ProfileService } from "src/app/services/profile.service";
 })
 export class ReposComponent implements OnInit {
   repoitems: any[];
-  repoName: string = "Pizza-Hut";
+  repoName: string = "Project-Management-System";
 
   constructor(private profileService: ProfileService) {}
 
